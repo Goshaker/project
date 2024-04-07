@@ -53,7 +53,7 @@ jobs:
       
       - name: Publish Helm charts
         run: |
-          cd helm-source/
+          cd helm-sources/
           helm package wordpress --version=${{ steps.tag_version.outputs.new_tag }} --app-version=${{ steps.tag_version.outputs.new_tag }}
           mv wordpress-* ../helm-release
           cd ..
