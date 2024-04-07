@@ -3,12 +3,12 @@ entries:
   wordpress:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-04-07T15:45:43.057827Z"
+    created: "2024-04-07T16:21:32.5748924Z"
     description: A Helm chart for Kubernetes
     digest: c1b632c6963fe451cae65666c37456d051592c32fc7e4bd41e59c2dad78fa136
     name: wordpress
     type: application
     urls:
-    - https://github.com/Goshaker/project.git/helm-releases/wordpress-0.1.0.tgz
+    - https://github.com/Goshaker/project/helm-releases/wordpress-0.1.0.tgz
     version: 0.1.0
-generated: "2024-04-07T15:45:43.056254849Z"
+generated: "2024-04-07T16:21:32.574433515Z"
